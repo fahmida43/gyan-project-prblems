@@ -1,0 +1,48 @@
+/*lg*/
+@media (min-width:992px) and (max-width:1199.98px){
+    #banner .bannerContent h1{
+       font-size: 55px;
+       letter-spacing: 25px;
+    }
+ }
+ 
+ /*md*/
+ @media (min-width:768px) and (max-width:991.98px){
+    #banner .banner_slider_item {
+       height: 600px;
+    }
+    #banner .bannerContent h4 {
+       font-size: 25px;
+    }
+    #banner .bannerContent h1 {
+       font-size: 45px;
+       letter-spacing: 18px;
+    }
+    #about .about_item_container {
+       margin-top: 20px;
+    }
+    #about .about_item{
+       margin-top: 50px;
+    }
+    #about .about_item:nth-child(2n){
+       border-right-color:transparent;
+    }
+ }
+ 
+ /*sm*/
+ @media (min-width:576px) and (max-width:767.98px){
+ 
+ }
+ 
+ /*xs*/
+ @media (max-width:575.98px){
+ 
+ }
+ 
+ 
+ @media (max-width:991.98px){
+    #service{
+       background-image: initial;
+       background-color: rgb(206, 203, 197);
+    }
+ }
